@@ -1,0 +1,35 @@
+<main>
+<div class="contenedor-imagen">
+    <img src="../../assets/imagenes/Imagen Plantilla/parque-explora.png" alt="imagen-servicio" width="700" height="568">
+</div>
+    <div class="contenedor-info-producto">
+        <div class="contenedor-titulo">
+            <span> {{ product.name | uppercase }} </span>
+        </div>
+        <div class="info-contacto">
+            <div class="detalles-contacto">
+                <p><i class="fa-regular fa-clock"></i><span [style.color]="horaActual >= buildDateFromTimeString(product.openhour) && horaActual <= buildDateFromTimeString(product.closehour) ? 'green' : 'red'">   {{ horaActual >= buildDateFromTimeString(product.openhour) && horaActual <=buildDateFromTimeString(product.closehour) ? 'Abierto' : 'Cerrado' }}</span></p>
+            <p><i class="fa-solid fa-phone"></i> {{product.phone}}</p>
+            <p><i class="fa-solid fa-location-dot"></i> Estamos ubicados en:  {{product.indications}}</p>
+        </div>
+        <div class="website-link">
+            <p> <i class="fa-solid fa-globe"></i> Visita nuestra página web para más información: <a
+                    href="https://www.ejemplo.com">{{product.website}}</a></p>
+        </div>
+    </div>
+    <div class="contenedor-descripcion">
+        <h2> Descripcion </h2>
+        <p>{{product.description}}</p>
+    </div>
+    <div class="contenedor-redes">
+        <span>Compartir</span>
+        <div class="contenedor-redes-botones">
+            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+            <a href="#"><i class="fa-brands fa-youtube"></i></a>
+        </div>
+    </div>
+    </div>
+</main>
+<h2>Opiniones</h2>

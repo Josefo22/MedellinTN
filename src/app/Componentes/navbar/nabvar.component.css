@@ -1,0 +1,46 @@
+.navbar {
+    background: #212F3D;
+    padding: 1% 0;
+}
+
+.backgroundTransparent{
+    background: transparent !important;
+}
+
+.nav_container{
+    width: 95%;
+
+}
+a{
+    color: #FBF9F1;
+}
+
+.navbar-collapse {
+    flex-grow: 0 !important;
+}
+
+.logo {
+    width: 100%;
+    max-width: 90px;
+}
+.dropdown-menu{
+    background-color: #212F3D;
+}
+
+.nav-link {
+    font-size: 20px;
+    transition: box-shadow 0.3s; 
+    box-shadow: 0 2px transparent; 
+}
+.navbar-toggler{
+    background-color: #ffff;
+}
+a:hover{
+    color: #B9B3B3;
+}
+.dropdown-item:hover{
+    background-color: #4E6B88;
+}
+.nav-link:hover {
+    box-shadow: 0 2px 0 #B9B3B3; 
+}

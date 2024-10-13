@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DMN</title>
+    <link rel="stylesheet" href="inicio.component.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <app-navbar></app-navbar>
+    <main>
+      <section class="containerLeft">
+        <h1>Discover Medellin Now</h1>
+        <p>Conoce y disfruta Medellín sin <br />necesidad de terceros</p>
+        <div class="containerImgButton">
+          <img
+            class="imagen"
+            src="../../assets/imagenes/medellin .png"
+            alt="Mi Imagen"
+          />
+          <a class="boton" routerLink="/mapa">Comienza la aventura</a>
+        </div>
+      </section>
+
+      <section class="containerRight">
+        <h1>¿Qué hay pa hacer?</h1>
+        <div class="cartas">
+          <div class="carta orange">
+            <div class="texto-card">
+              <a routerLink="/atracciones">Atracciones</a>
+              <p>Descubra nuestras atracciones disponibles.</p>
+            </div>
+            <div class="div_imagen">
+              <img src="../../../assets/imagenes/parque.png" alt="" />
+            </div>
+          </div>
+          <div class="carta">
+            <div class="texto-card">
+              <a routerLink="/restaurante">Restaurantes</a>
+              <p>Descubra nuestros restaurantes tradicionales.</p>
+            </div>
+            <div class="div_imagen">
+              <img src="../../../assets/imagenes/comer.png" alt="" />
+            </div>
+          </div>
+          <div class="carta">
+            <div class="texto-card">
+              <a routerLink="/actividades">Actividades</a>
+              <p>Descubra nuestras Actividades nocturnas.</p>
+            </div>
+            <div class="div_imagen">
+              <img src="../../../assets/imagenes/Actividades/bicicleta.png" alt="" />
+            </div>
+          </div>
+          <div class="carta orange">
+            <div class="texto-card">
+              <a routerLink="/mapa">Mapa</a>
+              <p>Descubra como llegar a sitios turisticos.</p>
+            </div>
+            <div class="div_imagen">
+              <img src="../../assets/imagenes/mapa.png" alt="" />
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>

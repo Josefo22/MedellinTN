@@ -1,0 +1,29 @@
+<app-navbar></app-navbar>
+<body>
+<br>
+<a class="boton" href="registro">Agregar nueva actividad</a>
+<a class="boton" href="#">Agregar nueva atracción</a>
+<a class="boton" href="#">Agregar nuevo restaurante</a>
+<br><br>
+<h1>Actividades</h1>
+<hr>
+<div class="row row-cols-1 row-cols-md-3 g-4">
+    <div class="col" *ngFor="let dato of datos">
+        <div class="card h-100">
+            <div class="card-body">
+                <h5 class="card-title">{{ dato.name | uppercase }}</h5>
+                <p class="card-text">{{ dato.description }}</p>
+                <a class="boton" href=""><i class="fa-solid fa-pen-to-square" style="color: #ffffff;"></i></a>
+                <a class="boton" style="background-color: red; border: 1px solid red;" (click)="eliminarDato(dato.id)"><i class="fa-solid fa-trash"></i></a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<br>
+<h1>Atracciones</h1>
+<hr>
+<br>
+<h1>restaurantes</h1>
+<hr>
+</body>

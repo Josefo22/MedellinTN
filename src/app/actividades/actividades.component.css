@@ -1,0 +1,210 @@
+.container_figura {
+  width: 100%;
+  padding-bottom: 10vh
+}
+
+.title-actividades {
+  font-size: 50px;
+  text-align: center;
+  margin-bottom: 60px;
+  margin: 2vh 0;
+}
+
+@media (max-width: 500px) {
+  .title-actividades {
+      font-size: 10vw;
+  }
+}
+
+
+.carousel {
+    padding-top: 5vh;
+}
+
+.carousel-img {
+  border-radius: 20px;
+  margin: auto;
+}
+
+section{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding-top: 5vh;
+}
+
+.containerIndividual{
+  width: 300px;
+}
+
+.buscar{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 1vh 0;
+}
+
+.sub-container-buscar {
+  padding: 0px;
+  position: relative;
+}
+
+.boton{
+  text-decoration-line: none;
+  color: #fff;
+  font-size: 15px;
+}
+
+.buscar input {
+  width: 240px;
+  height: 55px;
+  padding: 0 20px;
+  font-size: 18px;
+  color: black;
+  outline: none;
+  border: 1px solid gray;
+  border-radius: 50px;
+}
+
+.btn_buscar {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: #212f3d;
+  width: 55px;
+  height: 55px;
+  line-height: 55px;
+  text-align: center;
+  color: white;
+  font-size: 20px;
+  border-radius: 50px;
+  cursor: pointer;
+}
+
+.btn_buscar:hover {
+  background-color: #4E6B88;
+  font-size: 22px;
+}
+
+
+
+.row {
+  margin-top: 30px;
+  margin-left: 20px;
+}
+.card {
+  border-radius: 25px;
+  background-color: #fff;
+  margin-left: 20px;
+}
+
+.image-content,
+.card-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px 14px;
+}
+
+.image-content {
+  position: relative;
+  row-gap: 5px;
+  padding: 25px 0;
+}
+
+.overlay {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  background-color: #212f3d;
+  border-radius: 25px 25px 0 25px;
+}
+
+.overlay::before,
+.overlay::after {
+  content: "";
+  position: absolute;
+  right: 0;
+  bottom: -40px;
+  height: 40px;
+  width: 40px;
+  background-color: #212f3d;
+}
+
+.overlay::after {
+  border-radius: 0 25px 0 0;
+  background-color: #fff;
+}
+
+.card-image {
+  position: relative;
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  background: #fff;
+  padding: 3px;
+}
+
+.card-image .card-img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 4px solid #212f3d;
+}
+
+.name {
+  font-size: 18px;
+  font-weight: 500;
+  color: #333;
+}
+
+.description {
+  font-size: 14px;
+  color: #707070;
+  text-align: center;
+}
+.control-p {
+  margin-left: 125px;
+}
+.control-n {
+   margin-right: 130px;
+}
+@media (max-width: 768px) {
+  .carousel {
+    margin-left: 30px;
+  }
+  .carousel-inner {
+    width: 320px;
+    height: 300px;
+  }
+  .carousel-img {
+    width: 320px;
+    height: 300px;
+  }
+  h1 {
+    font-size: 30px;
+    margin-left: 65px;
+  }
+  h2 {
+    font-size: 28px;
+    margin-left: 65px;
+  }
+  .buscar {
+    margin-left: -15%;
+  }
+  .tarjetas .card {
+    margin-left: -20px;
+    max-width: 100%;
+  }
+  .control-p {
+    margin-left: -10px;
+  }
+
+  .control-n {
+    margin-right: 5px;
+  }
+}

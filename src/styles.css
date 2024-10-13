@@ -1,0 +1,62 @@
+*{
+    font-family: 'Playpen Sans', cursive;
+}
+body,html {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    background-color: #e9eff5;
+}
+/* Works on Firefox */
+* {
+    scrollbar-width: thin;
+    scrollbar-color: #212F3D white;
+}
+
+/* Works on Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+    width: 12px;
+    height: 6px;
+    
+}
+
+*::-webkit-scrollbar-track {
+    background: white;
+}
+
+*::-webkit-scrollbar-thumb {
+    background-color: #212F3D;
+    border-radius: 20px;
+    border: 2px solid white;
+}
+.elemento-con-scroll {
+    overflow-y: hidden;
+}
+.boton{
+    background-color: #212F3D;
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 5px;
+    border: 1px solid #212F3D;
+    text-decoration: none;
+    color: #ffff;
+}
+.boton a{
+    text-decoration: none;
+    color: #ffff;
+    text-align: center;
+}
+.boton:hover {
+    background-color: #4E6B88;
+    border: #4E6B88;
+}
+
+.modal-content{
+    width: 1000px;
+    margin-left: -200px;
+}
+@media (max-width: 768px) {
+    ::-webkit-scrollbar {
+        display: none;
+    }
+}
