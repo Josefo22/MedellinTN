@@ -1,27 +1,38 @@
-# DiscoveryMedellinNow
+# MedellinTN
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.4.
+**MedellinTN** es una aplicación web diseñada para descubrir los mejores lugares y eventos en Medellín, brindando a los usuarios una experiencia visual interactiva y fácil de usar.
 
-## Development server
+## Tabla de contenidos
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+- [Características](#características)
+- [Tecnologías](#tecnologías)
+- [Instalación](#instalación)
+- [Uso](#uso)
+- [Contribución](#contribución)
+- [Licencia](#licencia)
+  
+## Características
 
-## Code scaffolding
+- Descubre eventos y lugares turísticos en Medellín.
+- Interfaz interactiva y fácil de navegar.
+- Filtrado de eventos por categorías.
+- Diseño responsivo adaptado a dispositivos móviles.
+  
+## Tecnologías
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Este proyecto ha sido desarrollado utilizando las siguientes tecnologías:
 
-## Build
+- **Angular** - Framework para la construcción de la interfaz.
+- **Bootstrap** - Framework de diseño responsivo.
+- **Node.js** - Backend para la API (si aplica).
+- **HTML5 & CSS3** - Estructura y estilo del proyecto.
+- **JavaScript** - Lógica de la aplicación.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+## Instalación
 
-## Running unit tests
+Sigue estos pasos para clonar y configurar el proyecto en tu entorno local:
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+1. Clona el repositorio:
 
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+   ```bash
+   git clone https://github.com/Josefo22/MedellinTN.git
